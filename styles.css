@@ -76,6 +76,7 @@ body{
 	opacity: 0.8;
 }
 .pricing{
+    overflow: auto;
     display: flex;
     padding: 2rem;
     justify-content: space-around;
@@ -213,12 +214,24 @@ input[type=text], select, textarea {
     .container {
       max-width: 1536px;
     }
+    .gallery{
+        padding-right: 2rem;
+    }
+    .outer{
+        padding-right: 2rem;
+    }
   }
   
   /* xl */
   @media (max-width: 1280px) {
     .container {
       max-width: 1280px;
+    }
+    .gallery{
+        padding-right: 2rem;
+    }
+    .outer{
+        padding-right: 2rem;
     }
   }
   
@@ -227,12 +240,24 @@ input[type=text], select, textarea {
     .container {
       max-width: 1024px;
     }
+    .gallery{
+        padding-right: 2rem;
+    }
+    .outer{
+        padding-right: 2rem;
+    }
   }
   
   /* md */
   @media (max-width: 768px) {
     .container {
       max-width: 768px;
+    }
+    .gallery{
+        padding-right: 2rem;
+    }
+    .outer{
+        padding-right: 2rem;
     }
   }
   
@@ -241,11 +266,23 @@ input[type=text], select, textarea {
     .container {
       max-width: 640px;
     }
+    .gallery{
+        padding-right: 2rem;
+    }
+    .outer{
+        padding-right: 2rem;
+    }
   }
   
   /* xs */
   @media (max-width: 475px) {
     .container {
       width: 100%;
+    }
+    .gallery{
+        padding-right: 2rem;
+    }
+    .outer{
+        padding-right: 2rem;
     }
   }
